@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Tentang Kimia</string>
+    <string name="perkembangan">Berdasarkan massa dan sifat yang dimiliki tiap unsur berbeda-beda, maka muncullah pengelompokkan unsur kimia berdasarkan hal tersebut.
+        Pengelompokkan unsur-unsur kimia dikenal dengan nama Sistem Periodik.
+        Pengelompokkan tersebut bertujuan untuk memudahkan sifat setiap unsur dalam membentuk suatu senyawa. \n\n
+        1. Pengelompokkan Unsur Lavoisier
+        \n\t\tPada 1789, Antione Lavoisier membuat pengelompokkan terhadap 33 unsur kimia. Unsur tersebut dibagi dalam empat kelompok, yaitu tanah, gas, non-logam dan logam.
+        Karena pengetahuan tentang sifat unsurmasih sederhana unsur tersebut terlihat berbeda antara yang satu dan lainnya, artinya belum terlihat adanya kemiripan antara unsur yang satu dengan yang lainnya.\n\n
+        2. Hukum Triade Dobereiner
+        \n\t\tPada 1829, J.W. Dobereiner mengelompokkan unsur-unsur berdasarkan kemiripan sifat-sifatnya. Unsur pembentuk garam dan massa atomnya, yaitu Cl = 35.5, Br - 80 dan I = 127. Unsur pembentuk alkali dan massa atomnya, yaitu Li - 7, Na = 23 dan K = 39.
+        Unsur pembentuk alkali tanah dan massa atomnya, yaitu Ca = 40, Sr = 88, dan Ba = 136.\n\n
+        3. Sistem Periodik Oktaf Newlands
+        \n\t\tTahun 1864, A. R. Newlands menyusun unsur berdasarkan kenaikan massa atom relatifnya, ternyata unsur berselisih 1 oktaf (unsur ke-1 dan ke-8, unsur ke-2 dan unsur ke-9),
+        menunjukkan kemiripan sifat. Newlands menyatakan bahwa sifat-sifat unsur berubah secara teratur.\n\n
+        4. Sistem Periodik Mendeleev
+        \n\t\tPada 1869, Mendeleev mengemukakan bahwa sifat-sifat unsur adalah fungsi periodik dari massa atom relatfnya dan persamaan sifat yang didasari
+        oleh pengamatannya terhadap 63 unusr yang sudah dikenal ketika itu. Kelebihan sistem periodik mendeleevm adalah.\n\n
+        5. Sistem Periodik Unsur Modern
+        \n\t\tTahun 1887 - 1915, Henry G. Moseley menemukan bahwa urutan unsur dalam sistem periodik sesuai dengan kenaikan nmor atom unsur. Sifat periodik lebih tepat dikatakan sebagai fungsi nomor atom. sistem periodik unsur modern disusun berdasarkan kenaikan nomor atom dan kemiripan sifat.
+        Laju horizontal yang diseut periode disusun menurut kenaikan nomor atom, sedangkan laju vertikal disebut golongan, disusun menurut kemiripan sifat.\n\n
+    </string>
+    <string name="sps">Sifat-sifat periodik unsur adalah sifat-sifat yang ada hubungannya dengan letak unsur pada sistem periodik.
+        Sistem keperiodikan unsur adalah sifat-sifat yang berubah secara beraturan sesuai dengan kenaikan nomor atom unsur.\n\n
+        1. Jari - Jari Atom
+        \n\t\tJari-jari atom adalah jarak elektron terluar ke inti atom dan menunjukkan ukuran suatu atom. Panjang pendeknya jari-jari atom tergantung pada jumlah kulit elektron dan muatan inti atom.
+        Dalam suatu golongan, jari-jari atom semakin ke atas cenderung semakin kecil. Hal itu terjadi karena semakin keatas maka kulit elektron semakin kecil.\n\n
+        2. Keelektronegatifan
+        \n\t\tKeelektronegatifan adalah besaran kecenderungan suatu atom untuk menarik elektron. Harga keelekektronegatifan bersifat relatif
+        (berupa harga perbandingan suatu atom terhadap atom lain). Faktor yang mempengaruhi keelektronegatifan, adalah. \n
+        - Unsur segolongan : keelektonegatifan makin ke bawah makin kecil, karena gaya tarik-menarik inti makin lemah. Unsur bagian bawah dalam sistem periodik cenderung melepaskan elektron.\n
+        - Unsur seperiodik : keelektronegatifan makin ke kanan makin besar. Keelektronegatifan terbesar pada setiap periode dimiliki oleh golongan VII A (unsur halogen).\n\n
+        3. Energi Ionisasi (EI)
+        \n\t\tEnergi ionisasi adalah energi minimum yang diperlukan atom netral dalam wujud gas untuk melepas suatu elektron paling luar (yang terikat paling lemah) membentuk ion positif.
+        Pelepasan elektron kedua (dari ion positif satu) disebut energi ionisasi kedua, pelepasan elektron ketiga disebut energi ionisasi ketiga, dan seterusnya. \n\n
+        4. Afinitas Elektron
+        \n\t\tAfinitas elektron ialah energi yang dibebaskan atau yang diserap apabila suatu atom menerima elektron. Besarnya energi afinitas yang dihasilkan atau dilepaskan oleh atom netral dalam bentuk gas untuk menangkap satu elektron sehingga membentuk ion negatif.
+        Afinitas elektron dapat digunakan sebagai ukuran mudah tidaknya suatu atom menangkap elektron.\n\n
+        5. Sifat Logam dan Non-Logam
+        \n\t\tSifat logam akan bergantung pada energi ionisasi. Semakin besar energi ionisasi untuk melepas elektron dan semakin berkurang sifat logamnya.
+        Sebaliknya, sifat non-logamm dikaitkan dengan keelektronegatifannya, yaitu kecenderungan atom menarik elektron. \n\n
+    </string>
 </resources>

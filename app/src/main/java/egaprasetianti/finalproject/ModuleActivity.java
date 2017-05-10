@@ -29,9 +29,9 @@ public class ModuleActivity extends AppCompatActivity {
         persiapanData();
     }
     void persiapanData(){
-        String [] namaMateri = {"Sistem Periodik Unsur",};
-        int [] gambar = {R.drawable.imgmodule};
-        String [] IntentAct = {"com.package.SpsActivity"};
+        String [] namaMateri = {"Sistem Periodik Unsur", "Perkembangan Sistem Periodik"};
+        int [] gambar = {R.drawable.imgflash, R.drawable.imgrank};
+        String [] IntentAct = {"com.package.SpsActivity", "com.package.PerkembanganActivity"};
 
         for(int i=0; i < namaMateri.length;i++){
             moduleModel = new ModuleModel(namaMateri[i], gambar[i], IntentAct[i]);
