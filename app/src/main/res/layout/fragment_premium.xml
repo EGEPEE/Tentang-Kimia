@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bgpattern"
+    tools:context="egaprasetianti.finalproject.Fragment_premium">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:padding="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSplashTrans"
+        android:src="@drawable/imgpremium" />
+
+    <TextView
+        android:layout_margin="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Sedang dalam Proses"/>
+</LinearLayout>

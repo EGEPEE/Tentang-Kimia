@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10px"
+    android:background="@drawable/bgpattern"
+    android:padding="15px"
     tools:context="egaprasetianti.finalproject.SpsActivity">
     <ScrollView
         android:layout_width="match_parent"
@@ -33,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/imgflash"/>
             <TextView
+                android:textSize="16sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/perkembangan"/>

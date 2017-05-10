@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#38ba6a</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorPrimaryDarkTrans">#a8031a43</color>
+    <color name="colorPrimaryDarkTrans">#a8034312</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorSplash">#ab4770b9</color>
     <color name="colorSplashTrans">#1cb7bfcc</color>

@@ -46,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                i = new Intent(MainActivity.this, PerkembanganActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
     public void Logout(View view){

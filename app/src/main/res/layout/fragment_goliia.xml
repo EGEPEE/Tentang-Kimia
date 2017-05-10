@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpattern"
+    android:orientation="vertical"
+    android:padding="15px"
+    tools:context="egaprasetianti.finalproject.Fragment_goliia">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorSplashTrans"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Golongan II A"
+        android:textColor="@color/pickled"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/uns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Beli Mangga Campur Sirsak Bagi Rata"
+        android:textColor="@color/pickled"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uns"
+        android:layout_marginTop="10px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

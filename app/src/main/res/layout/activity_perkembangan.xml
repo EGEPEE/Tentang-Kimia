@@ -3,16 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="10px"
+    android:background="@drawable/bgpattern"
     android:layout_height="match_parent"
+    android:padding="15px"
     tools:context="egaprasetianti.finalproject.PerkembanganActivity">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/mod"
                 android:layout_width="match_parent"
@@ -25,25 +29,30 @@
                 android:textColor="@color/pickled"
                 android:textSize="25dp"
                 android:textStyle="bold" />
+
             <ImageView
-                android:layout_margin="20dp"
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/imgrank"/>
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:src="@drawable/imgrank" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/perkembangan"/>
+                android:textSize="16sp"
+                android:text="@string/perkembangan" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/imgtriade"/>
+                android:src="@drawable/imgtriade" />
+
             <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="-100dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/imgoktaf"/>
+                android:src="@drawable/imgoktaf" />
         </LinearLayout>
     </ScrollView>
 

@@ -39,4 +39,10 @@
         \n\t\tSifat logam akan bergantung pada energi ionisasi. Semakin besar energi ionisasi untuk melepas elektron dan semakin berkurang sifat logamnya.
         Sebaliknya, sifat non-logamm dikaitkan dengan keelektronegatifannya, yaitu kecenderungan atom menarik elektron. \n\n
     </string>
+
+    <!--Unsur Kimia-->
+    <string name="hidrogen">Nomor atom = 1, massa atom = 1.001 g/mol\nHidrogen merupakan unsur yang sangat mudah terbakar, sangat reaktif membentuk ikatan dengan unsur lain, melimpah secara luas sebagai pasokan bahan bakar tak terbatas</string>
+    <string name="litium">Nomor atom = 3, massa atom = 6.94 g/mol\nLitium merupakan logam lunak berwarna keperakan, ringan serta mengapung dipermukaan air. Saat terbakar, mengeluarkan api berwarna merah terang.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

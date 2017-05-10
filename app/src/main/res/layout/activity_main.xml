@@ -6,7 +6,7 @@
     android:background="@drawable/bgpattern"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="5dp"
+    android:padding="15dp"
     tools:context="egaprasetianti.finalproject.MainActivity">
 
     <LinearLayout
