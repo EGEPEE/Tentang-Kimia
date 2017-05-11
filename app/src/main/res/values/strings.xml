@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Tentang Kimia</string>
-    <string name="perkembangan">Berdasarkan massa dan sifat yang dimiliki tiap unsur berbeda-beda, maka muncullah pengelompokkan unsur kimia berdasarkan hal tersebut.
+<string name="app_name">Tentang Kimia</string>
+<string name="perkembangan">Berdasarkan massa dan sifat yang dimiliki tiap unsur berbeda-beda, maka muncullah pengelompokkan unsur kimia berdasarkan hal tersebut.
         Pengelompokkan unsur-unsur kimia dikenal dengan nama Sistem Periodik.
         Pengelompokkan tersebut bertujuan untuk memudahkan sifat setiap unsur dalam membentuk suatu senyawa. \n\n
         1. Pengelompokkan Unsur Lavoisier
@@ -19,7 +19,7 @@
         \n\t\tTahun 1887 - 1915, Henry G. Moseley menemukan bahwa urutan unsur dalam sistem periodik sesuai dengan kenaikan nmor atom unsur. Sifat periodik lebih tepat dikatakan sebagai fungsi nomor atom. sistem periodik unsur modern disusun berdasarkan kenaikan nomor atom dan kemiripan sifat.
         Laju horizontal yang diseut periode disusun menurut kenaikan nomor atom, sedangkan laju vertikal disebut golongan, disusun menurut kemiripan sifat.\n\n
     </string>
-    <string name="sps">Sifat-sifat periodik unsur adalah sifat-sifat yang ada hubungannya dengan letak unsur pada sistem periodik.
+<string name="sps">Sifat-sifat periodik unsur adalah sifat-sifat yang ada hubungannya dengan letak unsur pada sistem periodik.
         Sistem keperiodikan unsur adalah sifat-sifat yang berubah secara beraturan sesuai dengan kenaikan nomor atom unsur.\n\n
         1. Jari - Jari Atom
         \n\t\tJari-jari atom adalah jarak elektron terluar ke inti atom dan menunjukkan ukuran suatu atom. Panjang pendeknya jari-jari atom tergantung pada jumlah kulit elektron dan muatan inti atom.
@@ -41,8 +41,22 @@
     </string>
 
     <!--Unsur Kimia-->
+    <!--gol satu-->
     <string name="hidrogen">Nomor atom = 1, massa atom = 1.001 g/mol\nHidrogen merupakan unsur yang sangat mudah terbakar, sangat reaktif membentuk ikatan dengan unsur lain, melimpah secara luas sebagai pasokan bahan bakar tak terbatas</string>
     <string name="litium">Nomor atom = 3, massa atom = 6.94 g/mol\nLitium merupakan logam lunak berwarna keperakan, ringan serta mengapung dipermukaan air. Saat terbakar, mengeluarkan api berwarna merah terang.</string>
+    <string name="natrium">Nomor atom = 11, massa atom = 22,989 g/mol\nUnsur bereaksi cepat dengan air sehingga dapat menciptakan gas hidrogen yang mudah terbakar dan natrium hidroksida yang mengiritasikan kulit.</string>
+    <string name="kalium">Nomor atom = 19, berat atom 39,098 g/mol\nKalium memiliki titik leleh yang sangat rendah sehingga api dari lilin dapat menyebabkan kalium mencair, menghasilkan api berwarna ungu pucat.</string>
+    <string name="cesium">Nomor atom = 55, massa atom = 132.905 g/mol\nBerwarna keperakan dengan core mas dan salah satu paling elektropositif dan paling alkali sehingga lebih mudah bereaksi daripada elemen lainnya.</string>
+    <string name="rubidium">Nomor atom = 37, berat atom 85,4678 g/mol\nLogam ini lunak dan berwarna putih-keperakan. Terbakar secara spontan diudara dan bereaksi hebat dengan air dan es pada suhu -100 C untuk melepas hidrogen.</string>
+    <string name="fransium">Nomor atom = 87, massa atom = 233 g/mol\nUnsur kimia terberat dalam golongan IA. Hanya ada dalam bentuk radioaktif berumur pendek, paling elektronegatif dari seluruh unsur.</string>
+    <!--gol dua-->
+    <string name="berilium">Nomor atom = 4, massa atom = 9.01 g/mol\nUnsur bivalen beracun, berwarna abu-abu, kuat, ringan dan zat pengeras dalam paduan logam. </string>
+    <string name="magnesium">Nomor atom = 12, massa atom = 24,305 g/mol\nLogam ringan dengan warna putih keperakan, bila terkena udara akan memudar dan menjadi dilindungi oleh lapisan tipis oksida. </string>
+    <string name="kalsium">Nomor atom = 20, massa atom = 40,08 9/mol\nBerwarna logam mengkilap keperakan, lembut dan paling ringan dari logam alkali tanah, memberikan nyala merah ketika dibakar. </string>
+    <string name="strontium">Nomor atom 38, massa 87,62 g/mol\nStronsium-90 sangat berbahaya atau mematikan karena memiliki waktu paruh relative lama, sangat radioaktif dan dapat diserap oleh tubuh</string>
+    <string name="barium">Nomor atom = 56, Massa atom = 137,327 g/mol\nBerwarna perak keputihan dengan tekstur yang lunak. Senyawa barium beracun kecuali barium sulfat yang tidak larut dan lebih aman tertelan</string>
+    <string name="radium">Nomor atom = 88, massa atom = 226 g/mol\nBerwarna logam perak, berkilau, memancarkan sinar cahaya, dan berbahaya. </string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

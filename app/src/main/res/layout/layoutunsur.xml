@@ -7,8 +7,7 @@
     <ImageView
         android:id="@+id/gambarunsur"
         android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:src="@drawable/hidrogen" />
+        android:layout_height="180dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
