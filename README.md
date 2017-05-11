@@ -5,6 +5,6 @@ Tentang Kimia is an application that dedicated for student who want to learn abo
 
 --------------------------------------------------------------------------------
 
-##Image
+## Image
 * Icon : http://www.flaticon.com/
 * Chemical Elements and Prof. Tiko : Albertus Dwi S. and Krisan Alifari
