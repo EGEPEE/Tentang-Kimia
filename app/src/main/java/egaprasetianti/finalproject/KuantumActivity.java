@@ -6,13 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class PerkembanganActivity extends AppCompatActivity {
+public class KuantumActivity extends AppCompatActivity {
     TextView btnShare, content;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perkembangan);
-
+        setContentView(R.layout.activity_kuantum);
         btnShare = (TextView) findViewById(R.id.btnShare);
         content = (TextView) findViewById(R.id.content);
 

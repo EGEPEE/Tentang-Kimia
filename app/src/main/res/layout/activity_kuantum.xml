@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bgpattern"
-    android:orientation="vertical"
     android:padding="15px"
-    tools:context="egaprasetianti.finalproject.SpsActivity">
+    tools:context="egaprasetianti.finalproject.KuantumActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,7 +25,7 @@
                 android:background="@color/colorSplashTrans"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Sistem Periodik Unsur"
+                android:text="Bilangan Kuantum"
                 android:textColor="@color/pickled"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -36,13 +35,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
-                android:src="@drawable/imgflash" />
+                android:src="@drawable/imgkuantum" />
 
             <TextView
                 android:id="@+id/content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sps"
+                android:text="@string/kuantum"
                 android:textSize="16sp" />
 
             <TextView

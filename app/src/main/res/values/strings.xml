@@ -1,6 +1,6 @@
 <resources>
-<string name="app_name">Tentang Kimia</string>
-<string name="perkembangan">Berdasarkan massa dan sifat yang dimiliki tiap unsur berbeda-beda, maka muncullah pengelompokkan unsur kimia berdasarkan hal tersebut.
+    <string name="app_name">Tentang Kimia</string>
+    <string name="perkembangan">Berdasarkan massa dan sifat yang dimiliki tiap unsur berbeda-beda, maka muncullah pengelompokkan unsur kimia berdasarkan hal tersebut.
         Pengelompokkan unsur-unsur kimia dikenal dengan nama Sistem Periodik.
         Pengelompokkan tersebut bertujuan untuk memudahkan sifat setiap unsur dalam membentuk suatu senyawa. \n\n
         1. Pengelompokkan Unsur Lavoisier
@@ -19,7 +19,7 @@
         \n\t\tTahun 1887 - 1915, Henry G. Moseley menemukan bahwa urutan unsur dalam sistem periodik sesuai dengan kenaikan nmor atom unsur. Sifat periodik lebih tepat dikatakan sebagai fungsi nomor atom. sistem periodik unsur modern disusun berdasarkan kenaikan nomor atom dan kemiripan sifat.
         Laju horizontal yang diseut periode disusun menurut kenaikan nomor atom, sedangkan laju vertikal disebut golongan, disusun menurut kemiripan sifat.\n\n
     </string>
-<string name="sps">Sifat-sifat periodik unsur adalah sifat-sifat yang ada hubungannya dengan letak unsur pada sistem periodik.
+    <string name="sps">Sifat-sifat periodik unsur adalah sifat-sifat yang ada hubungannya dengan letak unsur pada sistem periodik.
         Sistem keperiodikan unsur adalah sifat-sifat yang berubah secara beraturan sesuai dengan kenaikan nomor atom unsur.\n\n
         1. Jari - Jari Atom
         \n\t\tJari-jari atom adalah jarak elektron terluar ke inti atom dan menunjukkan ukuran suatu atom. Panjang pendeknya jari-jari atom tergantung pada jumlah kulit elektron dan muatan inti atom.
@@ -38,6 +38,17 @@
         5. Sifat Logam dan Non-Logam
         \n\t\tSifat logam akan bergantung pada energi ionisasi. Semakin besar energi ionisasi untuk melepas elektron dan semakin berkurang sifat logamnya.
         Sebaliknya, sifat non-logamm dikaitkan dengan keelektronegatifannya, yaitu kecenderungan atom menarik elektron. \n\n
+    </string>
+    <string name="kuantum">Bilangan kuantum adalah suatu nilai yang menjelaskan kuantitas kekal dalam sistem dinamis. Bilangan ini menggambarkan sifat orbital dan elektron dalam orbital,
+        serta menentukan tingkat energi utama atau jarak dari inti, bentuk orbital, orientasi dan spin elektron. Macam-macam bilangan kuantum, adalah.\n\n
+        1. Bilangan Kuantum Utama (n)
+        \n\t\tBilangan ini digunakan untuk menyatakan tingkat energi utama yang dimiliki oleh elektron dalam sebuat atom. Semakin tinggi nilai n maka semakin tinggi pula energi elektron. Bilangan Kuantum utama mempunyai nilai sebagai nilaingan potifi dengan melambangkan K, L, M, N, dan O.\n\n
+        2. Bilangan Kuantum Azimut (ℓ)
+        \n\t\tBilangan kuantum azimut menyatakan subkulit tempat elektron berada dan bentuk orbital, serta momentum sudut terhadap inti. Nilai ini menggambarkan subkulit yang dimana elektron berada.\n\n
+        3. Bilangan Kuantum Magnetik (m)
+        \n\t\tBilangan ini menyatakan adanya satu atau beberapa tingkatan energi didalam satu subkulut. Bilangan magnetik mempunyai harga dari -ℓ sampai ℓ.\n\n
+        4. Bilangan Kuantum Spin (s)
+        \n\t\tBilangan spin menyatakan montum sudut suatu partikel. Suatu elektron dapat mempunyai bilangan kuantum spin jika akhir spin adalah ↿ maka s= +↿ sedangkan untuk spin terakhir ⇂ s = -½\n\n
     </string>
 
     <!--Unsur Kimia-->

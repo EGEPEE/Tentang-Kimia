@@ -2,20 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/layout">
+    android:padding="5dp"
+    android:background="@color/colorSplashTrans"
+    android:layout_marginTop="10dp"
+    android:id="@+id/layoutmodule">
 
     <ImageView
-        android:id="@+id/gambar"
+        android:id="@+id/gambarmodule"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/imgmodule"
         android:layout_marginRight="10dp"/>
     <TextView
-        android:id="@+id/judul"
+        android:id="@+id/judulmodule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Title"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:textStyle="bold"
         android:layout_gravity="center"
         />

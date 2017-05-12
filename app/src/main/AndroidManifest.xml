@@ -23,7 +23,9 @@
         <activity android:name=".ModuleActivity" />
         <activity android:name=".UnsurActivity" />
         <activity android:name=".SpsActivity" />
-        <activity android:name=".PerkembanganActivity"></activity>
+        <activity android:name=".PerkembanganActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".KuantumActivity"></activity>
     </application>
 
 </manifest>

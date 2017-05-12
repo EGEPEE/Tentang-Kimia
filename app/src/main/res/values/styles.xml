@@ -13,4 +13,9 @@
         <item name="android:orientation">vertical</item>
         <item name="android:background">@color/colorSplashTrans</item>
     </style>
+
+    <style name="social">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@color/colorSplashTrans</item>
+    </style>
 </resources>

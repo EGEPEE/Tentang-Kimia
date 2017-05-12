@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         btnAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                i = new Intent(MainActivity.this, PerkembanganActivity.class);
+                i = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(i);
             }
         });
@@ -61,5 +61,6 @@ public class MainActivity extends AppCompatActivity {
         editors.commit();
         Intent i = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(i);
+        finish();
     }
 }

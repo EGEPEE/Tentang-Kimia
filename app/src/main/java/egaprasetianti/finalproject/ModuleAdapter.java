@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -40,42 +41,53 @@ public class ModuleAdapter extends RecyclerView.Adapter<ModuleAdapter.MyViewHold
     @Override
     public void onBindViewHolder(ModuleAdapter.MyViewHolder holder, int position) {
         final ModuleModel moduleModel = moduleModelList.get(position);
-        final String dynamic_class = moduleModel.getIntentAct();
         holder.judul.setText(moduleModel.getNamaMateri());
         holder.gambar.setImageResource(moduleModel.getGambar());
         holder.layout.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick(View v) {
-                try {
-                    Intent i = new Intent(context, (Class<?>) Class.forName(dynamic_class).newInstance());
-                    context.startActivity(i);
-                    // i.setClassName(context, moduleModel.getIntentAct());
-                } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
-                    Log.e("YourParentClassName", "System can't find class with given name: " + dynamic_class, e);
+                Intent i;
+                switch (moduleModel.getIntentAct()) {
+                    case "spsActivity":
+                        i = new Intent(context, SpsActivity.class);
+                        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        context.startActivity(i);
+                        break;
+                    case "perkembanganActivity":
+                        i = new Intent(context, PerkembanganActivity.class);
+                        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        context.startActivity(i);
+                        break;
+                    case "kuantumActivity":
+                        i = new Intent(context, KuantumActivity.class);
+                        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        context.startActivity(i);
+                        break;
+                    default:
+                        break;
                 }
-
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return moduleModelList.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView judul;
+         TextView judul;
         ImageView gambar;
         LinearLayout layout;
 
         public MyViewHolder(View itemView){
             super(itemView);
 
-            judul = (TextView) itemView.findViewById(R.id.judul);
-            gambar = (ImageView) itemView.findViewById(R.id.gambar);
-            layout = (LinearLayout) itemView.findViewById(R.id.layout);
+            judul = (TextView) itemView.findViewById(R.id.judulmodule);
+            gambar = (ImageView) itemView.findViewById(R.id.gambarmodule);
+            layout = (LinearLayout) itemView.findViewById(R.id.layoutmodule);
         }
     }
 }

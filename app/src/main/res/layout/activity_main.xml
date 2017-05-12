@@ -75,7 +75,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/imgabout" />
+                android:src="@drawable/imguser" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -88,11 +88,11 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="Logout"
             android:id="@+id/logout"
             style="@style/layoutmain"
             android:layout_width="@dimen/dimen120dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:onClick="Logout">
 
             <ImageView
                 android:layout_width="100dp"
